@@ -3,7 +3,7 @@ import pygame
 
 audioInit = False
 
-soundDBnames = ['door','drink','hit','inventory','magic','walk','miss','pickup','fire','glass']
+soundDBnames = ['door','drink','hit','inventory','magic','walk','miss','pickup','fire','glass','equip_item','teleport','thunder']
 soundDB =  {};
 
 def initAudio():
