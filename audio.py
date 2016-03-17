@@ -5,7 +5,8 @@ audioInit = False
 
 soundDBnames = ['door','drink','hit','inventory','magic','walk','miss','pickup','fire','glass','equip_item','teleport','thunder',
 'step1','step2','step3','step4','step5','step6','step7','step8','step9',
-'blade','monster_bite','walking_on_item','monster_die','magic_eye','weaken','throw','levelup','slug']
+'blade','monster_bite','walking_on_item','monster_die','magic_eye','weaken','throw','levelup1','levelup2','slug','fire_spell','equip_jewel',
+'heal']
 soundDB =  {};
 
 def initAudio():
