@@ -4,7 +4,8 @@ import pygame
 audioInit = False
 
 soundDBnames = ['door','drink','hit','inventory','magic','walk','miss','pickup','fire','glass','equip_item','teleport','thunder',
-'step1','step2','step3','step4','step5','step6','step7','step8','step9','blade','monster_bite']
+'step1','step2','step3','step4','step5','step6','step7','step8','step9',
+'blade','monster_bite','walking_on_item','monster_die','magic_eye','weaken','throw','levelup','slug']
 soundDB =  {};
 
 def initAudio():
@@ -12,6 +13,9 @@ def initAudio():
 	pygame.mixer.init()
 	for el in soundDBnames:
 		soundDB[el] = pygame.mixer.Sound('audio/'+el+'.wav')
+
+	pygame.mixer.music.load("audio/music_cave.wav")
+	pygame.mixer.music.play(-1)
 	 
 
 
