@@ -28,5 +28,5 @@ layout = [  [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
     
      ]
 
-message = "you access the chambers"
+message = "You access the chambers. A subtle smell of passion impregnates de air. You feel dizzy."
 

@@ -24,4 +24,4 @@ layout = [
     [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
      ]
 
-message = "you access the Throne"
+message = "You arrive at the throne room. Find the dragon and eliminate him!"

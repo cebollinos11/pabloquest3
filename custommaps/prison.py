@@ -28,4 +28,4 @@ layout = [  [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     
      ]
 
-message = "prison break yo"
+message = "You arrive at the prison, a lot of guards are patrolling. There must be another way to get in!"
