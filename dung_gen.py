@@ -147,7 +147,7 @@ class dMap:
    def makePortal(self,px,py):
        """Create doors in walls"""
        ptype=randrange(100)
-       if ptype>98: #Secret door
+       if ptype>100: #Secret door
            self.mapArr[py][px]=5
            return
        elif ptype>75: #Closed door
