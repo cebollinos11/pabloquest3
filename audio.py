@@ -27,7 +27,6 @@ if audioInit == False:
 
 def PlaySound(str):
 	#pygame.mixer.music.load('audio/drink.wav')
-	print str
 	sound = soundDB[str]
 	sound.play()
 
