@@ -1,4 +1,5 @@
-import libtcodpy as libtcod
+import tcod as libtcod
+
 import interface as i
 import main_functions as mf
 import enchantments as en

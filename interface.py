@@ -1,4 +1,4 @@
-import libtcodpy as libtcod
+import tcod as libtcod
 from gameclass import *
 import textwrap
 import fov
@@ -370,7 +370,7 @@ def menu(header,options=None,noletter=0,extraHeader=[]):
                 ret=menu_graphic(header,el,noletter,extraHeader)
             else:
                 
-                ret=menu_graphic(header+' '+str(i+1)+'/'+str(len(options)/size+1),el,noletter,extraHeader)
+                ret=menu_graphic(header,el,noletter,extraHeader)
             if ret=='escape':
                     return None
             if ret=='next':

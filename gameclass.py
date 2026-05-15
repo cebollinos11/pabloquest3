@@ -1,1 +1,26 @@
-import libtcodpy as libtcodfrom interface import *import dung_genimport randomimport pickleMAP_WIDTH=80MAP_HEIGHT=23        class db():        def __init__(self):                self.map=[]#current dungeon level        self.inv=[]#current objects        self.p=[]#player        self.levels=[]            DB=db()
+import tcod as libtcod
+
+
+from interface import *
+import dung_gen
+import random
+import pickle
+
+MAP_WIDTH=80
+MAP_HEIGHT=23
+
+
+
+        
+class db():
+    
+    def __init__(self):        
+        self.map=[]#current dungeon level
+        self.inv=[]#current objects
+        self.p=[]#player
+        self.levels=[]
+        
+
+    
+
+DB=db()

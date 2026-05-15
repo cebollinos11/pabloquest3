@@ -62,7 +62,7 @@ class Color(Structure):
         return (self.r == c.r) and (self.g == c.g) and (self.b == c.b)
 
     def __mul__(self, c):
-	iret=0
+        iret=0
         if isinstance(c,Color):
             iret=_lib.TCOD_color_multiply_wrapper(col_to_int(self), col_to_int(c))
         else:
